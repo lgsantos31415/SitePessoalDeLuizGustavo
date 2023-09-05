@@ -14,9 +14,9 @@
   --bttn-clr: rgba(255, 255, 255);
 }
 
-.light {
+.light {klç;
   --text-color: black;
-  --bd-color: black;
+  --bd-color: rgba(0, 0, 0, 0.5);
   --bkgr-color: rgba(0, 0, 0, 0.05);
   --bkgr-h-color: rgba(0, 0, 0, 0.01);
   --bg-url: url(./assets/mobile/bg-mobile-light.jpg);
@@ -80,7 +80,13 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  transition: left 0.25s;
+  outline: 3px solid var(--bd-color);
+
+  transition: left 0.5s, outline 0.3s;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--bd-color);
 }
 
 .light #switch button {
@@ -120,7 +126,7 @@ ul li a {
   font-weight: 500;
   font-size: 15px;
 
-  transition: background, border 0.2s;
+  transition: background 0.3s, border 0.3s;
 }
 ul li a:hover {
   background: var(--bkgr-h-color);
@@ -145,7 +151,7 @@ ul li a:hover {
   border: 1px solid var(--bd-color);
   border-radius: 50%;
 
-  transition: background, border 0.2s;
+  transition: background 0.3s, border 0.3s;
 }
 #social-links a:hover {
   background: var(--bkgr-h-color);
