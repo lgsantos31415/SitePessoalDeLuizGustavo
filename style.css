@@ -11,6 +11,7 @@
   --bkgr-h-color: rgba(255, 255, 255, 0.15);
   --bg-url: url(./assets/bg-desktop.jpg);
   --bttn-img: url(./assets/moon-stars.svg);
+  --bttn-clr: rgba(255, 255, 255);
 }
 
 .light {
@@ -20,6 +21,7 @@
   --bkgr-h-color: rgba(0, 0, 0, 0.01);
   --bg-url: url(./assets/bg-desktop-light.jpg);
   --bttn-img: url(./assets/sun.svg);
+  --bttn-clr: rgb(215, 255, 0);
 }
 
 body {
@@ -65,20 +67,22 @@ body * {
 #switch button {
   width: 32px;
   height: 32px;
-  background: white var(--bttn-img) no-repeat center;
-  border: 0;
+  background: var(--bttn-clr) var(--bttn-img) no-repeat center;
   border-radius: 50%;
 
   position: absolute;
   top: 50%;
+  right: 32px;
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+
+  transition: left 0.25s;
 }
 
 .light #switch button {
   right: 0;
-  left: initial;
+  left: 32px;
 }
 
 #switch span {
