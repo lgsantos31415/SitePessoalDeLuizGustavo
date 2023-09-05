@@ -9,7 +9,7 @@
   --bd-color: rgba(255, 255, 255, 0.5);
   --bkgr-color: rgba(255, 255, 255, 0.1);
   --bkgr-h-color: rgba(255, 255, 255, 0.15);
-  --bg-url: url(./assets/bg-desktop.jpg);
+  --bg-url: url(./assets/mobile/bg-mobile.jpg);
   --bttn-img: url(./assets/moon-stars.svg);
   --bttn-clr: rgba(255, 255, 255);
 }
@@ -19,13 +19,14 @@
   --bd-color: black;
   --bkgr-color: rgba(0, 0, 0, 0.05);
   --bkgr-h-color: rgba(0, 0, 0, 0.01);
-  --bg-url: url(./assets/bg-desktop-light.jpg);
+  --bg-url: url(./assets/mobile/bg-mobile-light.jpg);
   --bttn-img: url(./assets/sun.svg);
   --bttn-clr: rgb(215, 255, 0);
 }
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -160,4 +161,13 @@ footer a {
 }
 footer a:hover {
   text-decoration: none;
+}
+
+@media (min-width: 650px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
