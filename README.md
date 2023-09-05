@@ -1,7 +1,7 @@
 <h1 align="center"> Site Pessoal de Luiz Gustavo </h1>
 
 <p align="center">
-Site desenvolvido através das lições passadas no curso Discover ofertado pela RockeSeat de forma gratuita, ensinando tecnologias e conceitos aplamentes utilizados em aplicações voltadas à WEB.
+Site desenvolvido através das lições passadas no curso Discover ofertado pela RockeSeat de forma gratuita, ensinando tecnologias e conceitos amplamentes utilizados em aplicações voltadas à WEB.
 </p>
 
 <p align="center">
