@@ -150,7 +150,7 @@ footer {
   font-size: 14px;
 }
 footer a {
-  text-decoration: overline;
+  text-decoration: underline;
 }
 footer a:hover {
   text-decoration: none;
