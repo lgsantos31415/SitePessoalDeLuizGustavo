@@ -34,7 +34,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 436px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -155,7 +156,7 @@ footer {
   font-size: 14px;
 }
 footer a {
-  text-decoration: underline;
+  text-decoration: overline;
 }
 footer a:hover {
   text-decoration: none;
