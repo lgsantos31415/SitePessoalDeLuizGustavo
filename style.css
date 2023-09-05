@@ -80,13 +80,14 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  outline: 3px solid var(--bd-color);
+  outline: 1px solid var(--bd-color);
+  outline-offset: 2px;
 
-  transition: left 0.5s, outline 0.3s;
+  transition: left 0.5s, outline-offset 0.3s;
 }
 
 #switch button:hover {
-  outline: 8px solid var(--bd-color);
+    outline-offset: 5px;
 }
 
 .light #switch button {
