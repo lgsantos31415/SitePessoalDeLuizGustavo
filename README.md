@@ -1,7 +1,7 @@
 <h1 align="center"> Site Pessoal de Luiz Gustavo </h1>
 
 <p align="center">
-Site desenvolvido através das lições passadas no curso Discover ofertado pela RockeSeat de forma gratuita, ensinando tecnologias e conceitos aplamentes utilizados em aplicações voltadas à WEB.
+Site desenvolvido atravÃ©s das liÃ§Ãµes passadas no curso Discover ofertado pela RockeSeat de forma gratuita, ensinando tecnologias e conceitos aplamentes utilizados em aplicaÃ§Ãµes voltadas Ã  WEB.
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@ Site desenvolvido através das lições passadas no curso Discover ofertado pela Ro
 
 <br>
 
-## ?? Tecnologias
+## ðŸš€ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -20,12 +20,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 
-## ?? Projeto
+## ðŸ’» Projeto
 
-O Calendário da Copa é um projeto que mostra os jogos da Copa de 2022.
+O CalendÃ¡rio da Copa Ã© um projeto que mostra os jogos da Copa de 2022.
 
-## ?? Layout
+## ðŸ”– Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/J1Z33MISC22YZB8wfxiIns/NLW-Copa-Explorer/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+VocÃª pode visualizar o layout do projeto atravÃ©s [DESSE LINK](https://www.figma.com/file/J1Z33MISC22YZB8wfxiIns/NLW-Copa-Explorer/duplicate). Ã‰ necessÃ¡rio ter conta no [Figma](https://figma.com) para acessÃ¡-lo.
 
-Feito com ? by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com â™¥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
